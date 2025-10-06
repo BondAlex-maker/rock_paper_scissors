@@ -1,4 +1,3 @@
-import random
 def player(prev_play, opponent_history=[]):
     opponent_history.append(prev_play)
     guess = prev_play
